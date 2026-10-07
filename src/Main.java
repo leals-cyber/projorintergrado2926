@@ -1,4 +1,5 @@
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {
@@ -16,6 +17,7 @@ public class Main {
         System.out.println();
         System.out.println("Olá, " + nome + "!");
         System.out.println("Bem-vindo ao Sistema de Exames.");
+        System.out.println("o que voce deixa testa ");
 
         scanner.close();
     }
